@@ -10,7 +10,6 @@ fetch('https://api.ipify.org?format=json')
 
     })
 
-let fullScreen = false;
 chrome.runtime.onMessage.addListener(
     function (request, sender, sendResponse) {
         console.log(sender.url);
@@ -18,19 +17,10 @@ chrome.runtime.onMessage.addListener(
             alert("Double Click to start the test");
 
             document.addEventListener("dblclick", () => {
-                if (fullScreen === false) {
-                    document.documentElement.webkitRequestFullscreen()
-                        .catch((e) => {
-                            console.log(e);
-                        });
-
-                    fullScreen = true;
-                    alert("Double click to end the test.");
-                } else {
-                    document.exitFullscreen();
-                    fullScreen = false;
-                    alert("Test Completed");
-                }
+                document.documentElement.webkitRequestFullscreen()
+                    .catch((e) => {
+                        console.log(e);
+                    });
             })
         } else {
             console.log(request.message);
