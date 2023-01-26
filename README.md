@@ -5,7 +5,6 @@
 * [Built With](#built-with)
 * [Features](#features)
 * [Installation](#installation)
-* [Usage](#usage)
 
 &nbsp;
 # About the Project
@@ -24,12 +23,8 @@ Language Used:-
 - [x] Capture the user-related information in local storage.(e.g. IP)
 
 &nbsp;
-# Getting Started
-To start up this extension you just need to follow the below mentioned steps.
-
-&nbsp;
 # Installation
-- Download the Cheating-Not-Allowed extension.
+- Download the zip of current repository (Cheating Not Allowed).
 - Add the extension to Chrome by clicking "Manage Extensions" button in the top right corner of your browser.
 - Turn on the Developer Mode of your browser.
 - Click on "Load unpacked" button on the top left corner of the browser.
