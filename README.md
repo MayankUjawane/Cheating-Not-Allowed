@@ -21,7 +21,7 @@ Language Used:-
 - [x] Extension works only in selected URLs having "assessment" in the url.
 - [x] The browser opens in full screen mode.
 - [x] More than one tab can't be opened.
-- [x] Capture the user-related information in local storage.(e.g. IP, requirements check)
+- [x] Capture the user-related information in local storage.(e.g. IP)
 
 &nbsp;
 # Getting Started
