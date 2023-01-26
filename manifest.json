@@ -1,0 +1,38 @@
+{
+  "manifest_version": 3,
+  "name": "Cheating Not Allowed",
+  "description": "Extension to prevent cheating",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "action": {
+    "default_icon": {
+      "48": "icon48.png",
+      "16": "icon16.png",
+      "128": "icon48.png"
+    },
+    "default_title": "Cheating Not Allowed"
+  },
+
+  "permissions": [
+    "storage",
+    "tabs",
+    "activeTab",
+    "scripting"
+  ],
+
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ]
+}
