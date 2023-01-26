@@ -4,8 +4,7 @@
 * [About the Project](#about-the-project)
 * [Built With](#built-with)
 * [Features](#features)
-* [Getting Started](#getting-started)
-  * [Installation](#installation)
+* [Installation](#installation)
 * [Usage](#usage)
 
 &nbsp;
